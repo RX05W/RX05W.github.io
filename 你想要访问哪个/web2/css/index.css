@@ -1,0 +1,141 @@
+
+/* 头部导航页开始 */
+#head {
+    background-color: blue;
+    height: 70px;
+}
+#head p{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+#head img {
+    height: 50px;
+}
+div.card-body h3 {
+    text-align: center;
+}
+div.card-body p {
+    text-align: center;
+}
+#button button{
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: skyblue;
+    border-radius: 30px;
+}
+/*头部导航页结束*/
+
+/*New开始*/
+#new_strat {
+	margin-bottom: 20px;
+}
+/*New结束*/
+
+/* 六个卡片开始a1 */
+.card-six-hover img {
+    width: 100%;
+}
+
+/* 六个卡片结束a1 */
+
+/*按钮开始*/
+#button_a1 {
+	margin-top: 20px;
+	text-align: right;
+}
+#button_1_bg {
+	background: skyblue;
+	border-radius: 10px;
+}
+/*按钮结束*/
+
+/*中部2开始*/
+h2.center_2 {
+	font-weight: bold;
+	font-size: 40px;
+}
+.sm-card {
+    height: 100%;
+}
+.sm-card .card {
+    border: solid 2px red;
+}
+/*中部2结束*/
+
+/* 四个卡片开始 */
+.sm-card {
+    margin-top: 20px;
+}
+/* 四个卡片结束 */
+
+/* 安全开始 */
+#anquan_border_all {
+    border: solid 1px saddlebrown;
+}
+#anquan_img {
+    width: 100%;
+}
+#margin_padding_x0 {
+    padding: 0px;
+    margin: 0px;
+}
+.inline-block {
+    font-size: 23px;
+    display: inline-block!important;
+    margin: 0px;
+}
+#anquan_border {
+    margin: 0px;
+    border: solid 3px red;
+}
+/* 安全结束 */
+
+/* 响应式开始 */
+
+/* 导航栏响应式样式开始 */
+@media screen and (max-width: 880px) {
+    #button {
+        display: none!important;
+    }
+}
+/* 导航栏响应式样式结束 */
+
+@media screen and (max-width: 1330px) {
+    .card-six-hover {
+        height: 192px;
+        overflow: hidden;
+        transition: all 1s;
+        margin-bottom: 20px;
+    }
+    .card-six-hover:hover {
+        height: 326px;	
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inline-block {
+        font-size: 16px;
+    }
+    .card-six-hover img {
+        width: 100%;
+    }
+    .card-six-hover {
+        height: 326px;
+    }
+}
+@media screen and (max-width: 480px) {
+    
+    .inline-block {
+        font-size: 16px;
+    }
+    .card-six-hover img {
+        width: 100%;
+    }
+    .card-six-hover {
+        height: 400px;
+    }
+}
+/* 响应式结束 */
